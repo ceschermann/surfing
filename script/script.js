@@ -14,11 +14,11 @@ fetch(url, {
     document.getElementById("waveHeight").innerHTML = waveHeight;
     document.getElementById("wavePeriod").innerHTML = wavePeriod;
     
-    if (waveHeight > 1 & wavePeriod > 10) {
+    if (waveHeight > 1 & wavePeriod > 11) {
     document.getElementById("Rating").innerHTML = `👍`;
     } else {
     document.getElementById("Rating").innerHTML = `🤬`;
-    document.getElementById("myVideo").src = "https://joy.videvo.net/videvo_files/video/free/2018-01/large_watermarked/171124_E1_HD_012_preview.mp4";
+    document.getElementById("myVideo").src = "img/bali_low.mp4";
 		}
   console.log(waves);
 })
