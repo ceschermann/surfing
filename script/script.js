@@ -14,7 +14,7 @@ fetch(url, {
     document.getElementById("waveHeight").innerHTML = waveHeight;
     document.getElementById("wavePeriod").innerHTML = wavePeriod;
     
-    if (waveHeight > 1 & wavePeriod > 11) {
+    if (waveHeight > 1 & wavePeriod > 10) {
     document.getElementById("Rating").innerHTML = `👍`;
     } else {
     document.getElementById("Rating").innerHTML = `🤬`;
