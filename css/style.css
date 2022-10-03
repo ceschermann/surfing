@@ -14,8 +14,7 @@ h1 {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-  width: 800px;
-  height: 600px; 
+  width: 500px;
 }
 
 /* Add some content at the bottom of the video/page */
