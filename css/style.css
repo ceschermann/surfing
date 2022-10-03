@@ -32,20 +32,20 @@ h1 {
   padding-right: 4%;
 
 }
+
  .container1 {
-        display: grid;
-        grid-template-columns: 30% 30%  30%;
-        grid-template-rows: 30px;
-        grid-column-gap: 5px;
-      }
-      
- .container2 {
         display: grid;
         grid-template-columns: 30% 30%  30%;
         grid-template-rows: 100px;
         grid-column-gap: 1%;
       }
-      
+
+ .container2 {
+        display: grid;
+        grid-template-columns: 30% 30%  30%;
+        grid-template-rows: 30px;
+        grid-column-gap: 5px;
+      }
       
       .item {
         background: rgba(0, 0, 0, 0.5);
