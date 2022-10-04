@@ -15,10 +15,11 @@ fetch(url, {
     document.getElementById("wavePeriod").innerHTML = wavePeriod;
     
     if (waveHeight > 1 & wavePeriod > 10) {
-    document.getElementById("Rating").innerHTML = `👍`;
+    	document.getElementById("Rating").innerHTML = `👍`;
+	document.getElementById("myVideo").src = "img/bali.mp4"
     } else {
-    document.getElementById("Rating").innerHTML = `🤬`;
-    document.getElementById("myVideo").src = "img/bali_low.mp4";
+   	document.getElementById("Rating").innerHTML = `🤬`;
+   	document.getElementById("myVideo").src = "img/bali_low.mp4";
 		}
   console.log(waves);
 })
