@@ -1,5 +1,5 @@
 const url ='https://api.stormglass.io/v2/weather/point?lat=-33.890842&lng=151.274292&params=waveHeight,wavePeriod&source=noaa';
-
+const hours = new Date().getHours();
 
 fetch(url, {
   headers: {
@@ -9,8 +9,8 @@ fetch(url, {
 .then((response) => response.json())
 .then(function(json) {
   let waves = json.hours;
-    waveHeight = `${waves[23].waveHeight.noaa}`
-    wavePeriod = `${waves[23].wavePeriod.noaa}`
+    waveHeight = `${waves[hours + 24].waveHeight.noaa}`
+    wavePeriod = `${waves[hours + 24].wavePeriod.noaa}`
     document.getElementById("waveHeight").innerHTML = waveHeight;
     document.getElementById("wavePeriod").innerHTML = wavePeriod;
     
