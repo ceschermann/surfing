@@ -41,7 +41,7 @@ body {
         display: grid;
         grid-template-columns: 30% 30%  30%;
         grid-template-rows: 30px;
-        grid-column-gap: 5px;
+        grid-column-gap: 1%;
       }
       
       .item {
